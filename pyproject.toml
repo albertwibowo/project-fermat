@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "project-fermat"
+version = "0.0.1"
+description = "A recommendation system based on matrix factorisation"
+authors = ["Albert Wibowo <albert14wibowo@duck.com>"]
+license = "MIT"
+maintainers = [
+    "Albert Wibowo <albert14wibowo@duck.com>",
+]
+readme = "README.md"
+repository = "https://github.com/albertwibowo/project-fermat"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "1.31.1"
+pandas = "2.2.1"
+numpy = "1.26.4"
+scipy = "1.12.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
